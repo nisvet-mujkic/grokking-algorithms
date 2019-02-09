@@ -33,4 +33,15 @@ print(binary_search(elements, 50))
 # log256 = 8, because 2^8 = 256
 
 
+# Theory time
+
+# If a list has 1000 elements it would take 1000 guesses to find an element in worst case.
+# So whenever we have number of maximum guesses and the size of array equal we call that LINEAR TIME. O(n)
+
+# Binary search is different because it runs in LOGARITHMIC TIME, which means for an array that has 100
+# elements maximum number of guesses in the worst case is 7. O(log n)
+
+# Big O is the special notation that tells us how fast an algorithm is.
+
+# O(n) - n stands for number of operations.
 
