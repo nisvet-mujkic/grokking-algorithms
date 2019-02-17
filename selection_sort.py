@@ -76,4 +76,3 @@ print(selection_sort(shop_items))
 
 
 
-
