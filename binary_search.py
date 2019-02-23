@@ -18,7 +18,7 @@ def binary_search(elements, item):
 
 elements = list(range(1, 101))
 
-print(binary_search(elements, 50))
+print(binary_search(elements, 505))
 
 # EXERCISES
 
