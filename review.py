@@ -32,7 +32,7 @@ def find_smallest(array):
     return smallest_index
 
 
-print(find_smallest(arr))
+#print(find_smallest(arr))
 
 
 def selection_sort(array):
@@ -45,4 +45,25 @@ def selection_sort(array):
     return sorted_array
 
 
-print(selection_sort(arr))
+#print(selection_sort(arr))
+
+
+def quick_sort(arr):
+    if len(arr) < 2:
+        return arr
+    else:
+        pivot = arr[0]
+
+        less = [num for num in arr if num < pivot]
+
+        greater = [num for num in arr if num > pivot]
+
+        return quick_sort(less) + [pivot] + quick_sort(greater)
+
+
+print(quick_sort(arr))
+
+print(quick_sort([5, 1, 2, 8, 11, 22]))
+
+
+
